@@ -413,6 +413,7 @@ font-style: normal;
 font-size: 16px;
 line-height: 1.2;
 font-weight: normal;
+height: nowrap;
 
 }
 .wrapper{
@@ -466,4 +467,122 @@ opacity: 0.75;
     height: 100vh;
     background: url(../img/inro-bg.jpg)no-repeat center;
     background-size: cover;
+    padding-top: 263px;
+}
+.intro-title{
+font-size: 50px;
+line-height: 60px;
+line-height: 100%;
+color: white;
+max-width: 619px;
+margin-bottom: 22px;
+}
+.intro-subtitle{
+    font-size: 16px;
+     line-height: 24px;
+     color: #FFFFFF;
+     max-width: 546px;
+     margin-bottom: 59px;
+
+}
+.search-form-info{
+     display: flex;
+    flex-wrap: wrap;
+
+}
+.search-form-field{
+    width: 297PX ;
+    background-color: transparent;
+    background: url(../svg/circle-ico.svg)no-repeat left TOP;
+background-size: 20PX;
+border: 0;
+border-bottom: 2px solid #BFC0C5;
+margin-right: 60PX;
+padding-left: 43PX;
+padding-bottom: 22PX;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+color: white;
+}
+.search-form-field::placeholder{
+
+    font-size: 18px;
+line-height: 24px;
+color: white;
+}
+.search-form-sumbit{
+    padding: 15px 39px;
+    text-transform:uppercase;
+    font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: white;
+background: #1B7DFF;
+border: 0;
+}
+.search-form-sumbit:hover, .search-form-sumbit:focus,.search-form-sumbit:active{
+    background-color: #003c8b;
+;
+}
+.benefits{
+max-width: 1260px;
+margin: 0 auto;
+display: flex;
+
+}
+.benefits-title{
+    font-weight: 500;
+font-size: 35px;
+line-height: 42px;
+padding: 93px 100px 120px 100px;
+transform: transparentY(-100%);
+}
+.benefitscards{
+    height: 30vh;
+
+}
+.benefitscard{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 55PX;
+    padding: 120px 306px 37px 100px;
+
+}
+.benefitscardpik{
+    max-width: 317px;
+}
+.text3{
+    padding-top: 28px;
+}
+.text1{
+    padding-top: 28px;
+}
+.benefits1{
+    max-width: 1260px;
+
+display: flex;
+background-color: white;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 56px;
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+
+}
+.benefitscard{
+   max-width: 1260px;
+margin: 0 auto;
+display: flex;
+background-color: white;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 56px;
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+    padding-bottom: 30px;
+ 
+}
+.benefitscardpik{
+    padding-bottom: 30px;
 }
