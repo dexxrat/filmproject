@@ -2,6 +2,10 @@
    v2.0-modified | 20110126
    License: none (public domain)
 */
+   * {
+    margin: 0;
+    padding: 0;
+   }
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -377,212 +381,161 @@ box-sizing: inherit;
 
 
 
-
-
-/* lato-regular - latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local(''),
-       url('../fonts/lato-v17-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/lato-v17-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* lato-700 - latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local(''),
-       url('../fonts/lato-v17-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/lato-v17-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* lato-900italic - latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 900;
-  src: local(''),
-       url('../fonts/lato-v17-latin-900italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/lato-v17-latin-900italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-body{
-font-family:'Lato' ;
-font-style: normal;
-font-size: 16px;
-line-height: 1.2;
-font-weight: normal;
-height: nowrap;
-
-}
-.wrapper{
-max-width: 1060px;
-margin: 0 auto;
-}
-
 .header{
-  ;
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
+	text-align: center;
+	vertical-align:top;
 }
-.header_wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: space-between;
-    padding-top: 56px;
-  }
+.title{
+	font-style: normal;
+font-weight: 300;
+font-size: 35px;
+line-height: 45px;
 
-.header-list{
-display: flex;
-    flex-wrap: wrap;
+color: #FFF2E0;
 
 
 }
-.header-item{
-margin-right: 82px;
+.rd{
+	color: #FC4100;
+}
+.title2{
+	font-size: 25px;
+	letter-spacing: 0.66em;
+text-transform: uppercase;
+
+color: #FFF2E0;
 
 }
-.header-item:last-child{
-margin-right: 0;
+.search{
+	padding-top: 150px;i
+	text-align: center;
+box-sizing: border-box;
+backdrop-filter: blur(17px);
+border-radius: 7px;
+	padding-left: 33%;
 }
-.header-link{
-    font-size: 18px;
-    line-height: 24px;
-    color: white;
-text-decoration: none;
+.ifo{
+	border: 1px solid;
+box-sizing: border-box;
+backdrop-filter: blur(17px);
+	border: 1px solid #ff8c00;
+border-radius: 7px;
+width: 500px;
+height: 40px;
 }
-.header-link:hover,.header-link:focus,.header-link:active{
-
-opacity: 0.75;
-}
 
 
-
-
+/*
 .intro{
     height: 100vh;
     background: url(../img/inro-bg.jpg)no-repeat center;
     background-size: cover;
-    padding-top: 263px;
+}*/
+body {
+    background-color: black;
 }
-.intro-title{
-font-size: 50px;
-line-height: 60px;
-line-height: 100%;
-color: white;
-max-width: 619px;
-margin-bottom: 22px;
+.bodar{
+    margin-left: 718px;
 }
-.intro-subtitle{
-    font-size: 16px;
-     line-height: 24px;
-     color: #FFFFFF;
-     max-width: 546px;
-     margin-bottom: 59px;
+.zag{
+width: 548px;
+height: 57px;
+font-size: 44px;
+margin-top: 75px;
+letter-spacing: 0.05em;
+color: #D3B487;
+margin-bottom: 77px;
 
 }
-.search-form-info{
-     display: flex;
-    flex-wrap: wrap;
+.search{
+    margin-top: 77px;
+    padding: 0px;
+    width: 540px;
+height: 99px;
+border: 1px solid #B77862;
+box-sizing: border-box;
+backdrop-filter: blur(17px);
+border-radius: 7px;
+
 
 }
-.search-form-field{
-    width: 297PX ;
+   .searchtext{
+   
+   }
+.searchform{
     background-color: transparent;
-    background: url(../svg/circle-ico.svg)no-repeat left TOP;
-background-size: 20PX;
-border: 0;
-border-bottom: 2px solid #BFC0C5;
-margin-right: 60PX;
-padding-left: 43PX;
-padding-bottom: 22PX;
-font-weight: 500;
-font-size: 18px;
-line-height: 24px;
-color: white;
-}
-.search-form-field::placeholder{
-
-    font-size: 18px;
-line-height: 24px;
-color: white;
-}
-.search-form-sumbit{
-    padding: 15px 39px;
-    text-transform:uppercase;
-    font-weight: 500;
-font-size: 24px;
-line-height: 29px;
-color: white;
-background: #1B7DFF;
-border: 0;
-}
-.search-form-sumbit:hover, .search-form-sumbit:focus,.search-form-sumbit:active{
-    background-color: #003c8b;
-;
-}
-.benefits{
-max-width: 1260px;
-margin: 0 auto;
-display: flex;
+    border: 0px;
+    color: white;
+    padding: 0px;
+    max-width: 250px;
 
 }
-.benefits-title{
-    font-weight: 500;
+    .sumbitform{
+    border: none;
+    background: url(../svg/circle.svg) no-repeat; 
+    color: transparent;
+    padding: 0px;
+    max-width: 32px;
+    padding-right: 50px;
+    height: 40px;
+   }
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+     background-color: transparent;
+    border: 0px;
+    padding-left: 15px;
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: white;
+}
+.zagalovak2{
+padding: 0px;
+    margin-top: 91px;
+margin-left: 300px;
+     width: 373.35px;
+height: 186.33px;
+font-weight: 300;
+font-size: 28px;
+line-height: 111.5%;
+/* or 31px */
+
+letter-spacing: -0.035em;
+
+color: #D3B487;
+
+opacity: 0.8;
+}
+.zagalovik{
+
+height: 33px;
 font-size: 35px;
-line-height: 42px;
-padding: 93px 100px 120px 100px;
-transform: transparentY(-100%);
-}
-.benefitscards{
-    height: 30vh;
+line-height: 94%;
+margin-top: 138px;
+padding-left: 260px;
+color: #FFF2E0;
+
+
 
 }
-.benefitscard{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 55PX;
-    padding: 120px 306px 37px 100px;
-
-}
-.benefitscardpik{
-    max-width: 317px;
-}
-.text3{
-    padding-top: 28px;
-}
-.text1{
-    padding-top: 28px;
-}
-.benefits1{
-    max-width: 1260px;
-
-display: flex;
-background-color: white;
+.footer-wrap{
+    display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: space-between;
-    padding-top: 56px;
-    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+}
+.zagalovak23{
+width: 600px;
+height: 45px;
+font-size: 48px;
+line-height: 94%;
+color: #FFF2E0;
+opacity: 0.8;
+padding: 0px;
+margin: 0px;
+margin-top: -80px;
+padding-left: 151px;
 
 }
-.benefitscard{
-   max-width: 1260px;
-margin: 0 auto;
-display: flex;
-background-color: white;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: space-between;
-    padding-top: 56px;
-    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
-    padding-bottom: 30px;
- 
-}
-.benefitscardpik{
-    padding-bottom: 30px;
-}
+
